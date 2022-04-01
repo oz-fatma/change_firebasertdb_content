@@ -31,7 +31,7 @@ Steps:
 11. Create a new real time database in firebase by following firebase instructions.
 12. Your database content shooul be like this:
 
-YourDatabaseName
+YourDatabaseName:
 “suDeposu”:
 {
    ”dolululukOranı”: “ 80”,
