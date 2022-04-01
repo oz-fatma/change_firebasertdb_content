@@ -30,9 +30,23 @@ Steps:
 10. Add firebase database project dependencies in pubsec.yaml and import it where to use.
 11. Create a new real time database in firebase by following firebase instructions.
 12. Your database content shooul be like this:
+
+YourDatabaseName
+“suDeposu”:
+{
+   ”dolululukOranı”: “ 80”,
+   “ad”: “su deposu”,
+}
+
+“box”:
+{
+ “ad”:”kutu”
+
+}
  
 
 
+Example data update method:
  void updateData() {
 
     databaseReference.child("yourPath").child("yourChildPath").update({'value: yourValue});
