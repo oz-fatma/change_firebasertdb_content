@@ -28,6 +28,9 @@ Steps:
 8. Download google-services.json and copy it, paste it yourprojectname/android/app/src directory.
 9. Follow firebase instructions and done.
 10. Add firebase database project dependencies in pubsec.yaml and import it where to use.
+11. Create a new real time database in firebase by following firebase instructions.
+12. Your database content shooul be like this:
+ 
 
 
  void updateData() {
